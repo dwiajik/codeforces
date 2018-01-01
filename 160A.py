@@ -8,9 +8,9 @@ count = 0
 ownCoins = 0
 
 for coin in coins:
-	ownCoins += coin
-	count += 1
-	if ownCoins > avg:
-		break
+  ownCoins += coin
+  count += 1
+  if ownCoins > avg:
+    break
 
 print(count)
